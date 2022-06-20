@@ -1,0 +1,26 @@
+#login-form input[type="submit"]:hover {
+  background-color: #f6e58d;
+}
+
+#login-form input[type="text"]:hover {
+  border: 3px solid var(--blue);
+}
+
+#login-form input[type="password"]:hover {
+  border: 3px solid var(--blue);
+}
+
+.user-component-s:hover {
+  box-shadow: 0 0 0.8em var(--blue);
+  border-radius: 13px;
+  border: 2px solid var(--blue);
+}
+
+.user-component__column-music:hover {
+  border: 2px solid white;
+  background-color: var(--blue);
+}
+
+.icon-row__icon:hover {
+  font-size: 20px;
+}

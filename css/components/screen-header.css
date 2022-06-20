@@ -1,0 +1,20 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+  z-index: 5;
+  padding-top: 40px;
+  color: var(--yellow);
+  text-shadow: 0px 5px 0.5px var(--deepyellow);
+  filter: drop-shadow(0 0 2em);
+}
+
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.screen-header__icon span {
+  margin-left: 25px;
+}

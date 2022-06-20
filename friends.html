@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Friend - kakaka Talk</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>10:32</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friend</h1>
+        <div class="screen-header__icon">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-user-plus fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>     
+        </div>
+    </header>
+
+    <a id="friends-display-link">
+        <i class="fas fa-info-circle"></i> Friends' Names Display 
+        <i class="fas fa-chevron-right fa-xs"></i> 
+    </a>
+
+    <main class="friends-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="img/스폰지이밥.png" class="user-component__avatar user-component__avatar--xl "/>
+                <div class="user-component__text">
+                    <h4 class="user-component__title">SpongeBob</h4>
+                    <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>  
+        
+        <div class="friends-screen-channel">
+         <div class="friends-screen-channel-header">
+             <span>Channel</span>
+             <i class="fas fa-chevron-up fa-xs"></i>
+         </div> 
+
+         <div class="user-component">
+            <div class="user-component__column">
+                <img src="img/파인.png" 
+                class="user-component__avatar user-component__avatar--sm "/>
+                <div class="user-component__text">
+                    <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+                </div>
+            </div>
+            <div class="user-component__column">
+               <div>
+                <span>2</span>
+                <i class="fas fa-chevron-right fa-xs"></i>
+               </div>
+            </div>
+        </div>
+        <div class="friends-screen-channel-header">
+            <span>Friend</span>
+            <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        </div>
+
+        <div id="friende">
+            <div class="user-component-s">
+                <div class="user-component__column-s">
+                    <img src="img/다람이.png" class="user-component__avatars"/>
+                    <div class="user-component__text-s">
+                        <h4 class="user-component__title-s">Sandy</h4>
+                    </div>
+                </div>
+                <div class="user-component__column-s"></div>
+            </div>
+            <div class="user-component-s">
+                <div class="user-component__column-s">
+                    <img src="img/뚱이.png" class="user-component__avatars"/>
+                    <div class="user-component__text-s">
+                        <h4 class="user-component__title-s">Patrick Star</h4>
+                    </div>
+                </div>
+                <div class="user-component__column-s">
+                    <div class="user-component__column-music">
+                        witty fellow-SpongeBob<i class="far fa-play-circle"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="user-component-s">
+                <div class="user-component__column-s">
+                    <img src="img/진주.png" class="user-component__avatars"/>
+                    <div class="user-component__text-s">
+                        <h4 class="user-component__title-s">Pearl Krabs</h4>
+                    </div>
+                </div>
+                <div class="user-component__column-s"></div>
+            </div>
+            <div class="user-component-s">
+                <div class="user-component__column-s">
+                    <img src="img/집게사장.png" class="user-component__avatars"/>
+                    <div class="user-component__text-s">
+                        <h4 class="user-component__title-s">Harold Krabs</h4>
+                    </div>
+                </div>
+                <div class="user-component__column-s"></div>
+            </div>
+            <div class="user-component-s">
+                <div class="user-component__column-s">
+                    <img src="img/플랑크톤.png" class="user-component__avatars"/>
+                    <div class="user-component__text-s">
+                        <h4 class="user-component__title-s">Janet Plankton</h4>
+                    </div>
+                </div>
+                <div class="user-component__column-s"></div>
+            </div>
+            <div class="user-component-s">
+                <div class="user-component__column-s">
+                    <img src="img/징징이.png" class="user-component__avatars"/>
+                    <div class="user-component__text-s">
+                        <h4 class="user-component__title-s">Tentacles</h4>
+                    </div>
+                </div>
+                <div class="user-component__column-s">
+                    <div class="user-component__column-music">
+                        tomfoolery-SpongeBob<i class="far fa-play-circle"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="user-component-s">
+                <div class="user-component__column-s">
+                    <img src="img/핑핑이.png" class="user-component__avatars"/>
+                    <div class="user-component__text-s">
+                        <h4 class="user-component__title-s">Gary the Snail</h4>
+                    </div>
+                </div>
+                <div class="user-component__column-s"></div>
+            </div>
+            
+        </div>  
+    </main>
+ 
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>   
+                <i class="far fa-comment fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <div id="splash-screen">
+        <img src="img/pngwing.com (1).png">
+    </div>
+    <div id="no-mobile">
+        <span>Your screen is too big ㅠㅠ</span>
+      </div>
+    <script src="https://kit.fontawesome.com/2e01103920.js" crossorigin="anonymous"></script>
+</body>
+</html> 
